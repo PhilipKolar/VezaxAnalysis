@@ -17,14 +17,14 @@ The simplest way, in a terminal:
 
 * **-h**: Show a list of all the different arguments (similar to here)
 * **--onlyKill**: By default the analysis will include all wipes and sum up the healing done and friendly fire together. With this flag set only the successful kill attempt will be included.
-* **--wipeGracePeriod <wipeGracePeriod>**: Default: 15. Time in seconds. Removes the last few seconds from the fight on all wipe attempts (NOT the kill attempt). A basic way of accounting for people stacking up to wipe up fast.
+* **--wipeGracePeriod <wipeGracePeriod>**: Default: 15. Time in seconds. Removes the last few seconds from the fight on all wipe attempts (NOT the kill attempt). A basic way of accounting for people stacking up to wipe up fast. Note: This parameter does not do anything if --onlyKill is set.
 * **--outputFile <outputFile>**: Default: Does not output to file. The file name and/or file path to write a CSV file to with the results. They will still be printed to the console, but also uploaded to a file in a csv format.
 
 ## Usage Example
 
 This uses all parameters. Note only apiKey and logId are required.
 
-`.\VezaxAnalysis.exe --apiKey 984b742ee69fb2009243417909b2a358 --logId JtcX4CmqNrk1yRMT --outputFile "C:\Temp\myVezaxResults.csv"`
+`.\VezaxAnalysis.exe --apiKey YourApiKey --logId JtcX4CmqNrk1yRMT --onlyKill --wipeGracePeriod 20 --outputFile "C:\Temp\myVezaxResults.csv"`
 
 ## Sample Output
 
