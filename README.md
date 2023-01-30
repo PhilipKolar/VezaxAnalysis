@@ -6,7 +6,9 @@ It is intended for 25 man and does not yet support 10 mans
 
 ## How to Run
 
-The simplest way, in a terminal:
+Download the latest release here and extract the zip file (source code not required): https://github.com/PhilipKolar/VezaxAnalysis/releases/tag/v1.0.0
+
+The simplest way to run it, in a terminal:
 
 `.\VezaxAnalysis.exe --apiKey YourApiKey --logId JtcX4CmqNrk1yRMT`
 
