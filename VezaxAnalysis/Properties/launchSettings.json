@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "VezaxAnalysis": {
+      "commandName": "Project",
+      "commandLineArgs": "--logId MyLogIdIsHere --apiKey MyKeyIsHere"
+    }
+  }
+}
