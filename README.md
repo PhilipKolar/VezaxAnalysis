@@ -8,7 +8,7 @@ It is intended for 25 man and does not yet support 10 mans
 
 The simplest way, in a terminal:
 
-`.\VezaxAnalysis.exe --apiKey <YourWarcraftLogsApiKey> ----logId JtcX4CmqNrk1yRMT`
+`.\VezaxAnalysis.exe --apiKey <YourWarcraftLogsApiKey> --logId JtcX4CmqNrk1yRMT`
 
 * **apiKey**: You need to go to warcraft logs to generate this for yourself. Log in and proceed to your warcraft logs page [here](https://classic.warcraftlogs.com/profile), put any name into "V1 Client Name" (it doesn't matter), and click Set. The value for "V1 Client Key" is what you want, which should appear after you set a client name
 * **logId**: This is your log ID from Warcraft Logs. Go to the log you want to run this analysis on and copy it from the address bar in your browser. For example, if your log is https://classic.warcraftlogs.com/reports/JtcX4CmqNrk1yRMT then your logId would be JtcX4CmqNrk1yRMT
