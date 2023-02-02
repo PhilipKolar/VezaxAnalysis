@@ -1,6 +1,6 @@
 # Vezax Analysis
 
-This CLI tool runs an analysis to find who splashed how much damage from Mark of the Faceless and healed the boss for how much.
+This CLI tool for Wrath of Lich King runs an analysis to find who splashed how much damage from Mark of the Faceless and healed the boss for how much.
 
 It is intended for 25 man and does not yet support 10 mans
 
